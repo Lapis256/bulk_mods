@@ -1,3 +1,4 @@
+New-Item -ItemType Directory -Path src/META-INF -Force > $null
 python gen.py > $null
 
 New-Item -ItemType Directory -Path build -Force > $null
